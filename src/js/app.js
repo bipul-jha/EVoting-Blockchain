@@ -74,6 +74,8 @@ App = {
       //if (err === null) {
         //App.account = account;
         $("#accountAddress").html("Your Account: " + account[0]);
+        $("#accountAddress").css("font-weight","Bold");
+        $("#accountAddress").css("font-size","13px");
         App.account = account[0];
       //}
     });
