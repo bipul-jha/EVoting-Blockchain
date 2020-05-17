@@ -22,8 +22,8 @@ contract Election {
     );
 
     constructor () public {
-        addCandidate("Candidate 1");
-        addCandidate("Candidate 2");
+        addCandidate("Rajat Gupta");
+        addCandidate("Bipul Jha");
     }
 
     function addCandidate (string memory name) private {
